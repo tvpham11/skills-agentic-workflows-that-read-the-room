@@ -7,6 +7,7 @@ permissions:
   contents: read
 engine:
   id: copilot
+  model: claude-3.5-sonnet
   copilot-sdk: true
 network:
   allowed:
