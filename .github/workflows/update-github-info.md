@@ -8,7 +8,7 @@ permissions:
   copilot-requests: write
 engine:
   id: copilot
-  model: auto
+  model: gpt-4.1
   model-provider: github
   copilot-sdk: true
 network:
