@@ -5,9 +5,11 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  copilot-requests: write
 engine:
   id: copilot
-  model: claude-3.5-sonnet
+  model: auto
+  model-provider: github
   copilot-sdk: true
 network:
   allowed:
