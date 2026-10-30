@@ -20,6 +20,7 @@ tools:
   edit:
   web-fetch:
 safe-outputs:
+  report-failure-as-issue: false
   create-pull-request:
     max: 1
     draft: false
